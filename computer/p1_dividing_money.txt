@@ -1,0 +1,11 @@
+READ amount
+
+pieces <- amount / 8
+amount <- amount % 8
+
+pieces <- pieces + amount / 3
+amount <- amount % 3
+
+pieces <- pieces + amount
+
+PRINT amount
